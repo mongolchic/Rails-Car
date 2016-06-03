@@ -1,0 +1,18 @@
+<h1>Simulate your car</h1>
+<h2>Your car is <%= @car.full_car %> </h2>
+<h3>Km/h = <%= @car.speed %>  </h3>
+<h3>Lights =  <%= @car.lights_on %></h3>
+<h3>Parking Brake =  <%= @car.parking_break_on %></h3>
+<a href="/car/parking_break_on">On<input type="radio" value="on" /></a>
+</br>
+<a href="/car/parking_break_off">Off<input type="radio" value="off" /></a>
+</br>
+
+
+
+
+  <a href="/car/accelerate"><input type="button" value="Accelerate" /></a>
+
+   <a href="/car/brake"><input type="button" value="Brake" /></a>
+
+   <a href="/car/lights_on"><input type="button" value="Lights" /></a>
